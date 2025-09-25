@@ -1,0 +1,334 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="JavaScript" href="../Assets/Js/formvalidation.js">
+    <title>About Us</title>
+    <style>
+        /* Clean modern theme */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation styles */
+        .navlink {
+            background: #ffffff;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .navlink ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .navlink a {
+            text-decoration: none;
+            color: #2c3e50;
+            padding: 8px 15px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .navlink a:hover {
+            color: #3498db;
+        }
+
+        /* About section styles */
+        .about-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: #ffffff;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        
+        .about-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .about-section p {
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        /* Team container and member styles */
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .team-member {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 25px;
+            width: 280px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #f1f1f1;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        
+        .team-member h2 {
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        .team-member p {
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        
+        .team-member button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background 0.3s;
+            display: block;
+            width: 100%;
+        }
+        
+        .team-member button:hover {
+            background: #2980b9;
+        }
+        
+        .team-member button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Contact form styles */
+        .contact {
+            background: rgba(248, 249, 250, 0.9);
+            padding: 40px 20px;
+        }
+        
+        .contact h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #2c3e50;
+        }
+        
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 25px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        
+        .contact textarea {
+            min-height: 120px;
+        }
+        
+        .contact button {
+            background: #3498db;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s;
+            font-size: 1rem;
+        }
+        
+        .contact button:hover {
+            background: #2980b9;
+        }
+
+        /* Footer styles */
+        footer {
+            background: rgba(240, 242, 245, 0.95);
+            color: #2c3e50;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        footer p {
+            margin: 10px 0;
+            font-size: 0.95rem;
+        }
+        
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        footer a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+    </style>  
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navlink">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog/mainblog.html">Blog</a></li>
+            <li><a href="../about/about.html">About Us</a></li>
+            <li><a href="../research/research.html">Research Section</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>Welcome to our website! We are a dedicated team of professionals committed to delivering exceptional digital experiences.</p>
+    </div>
+
+    <!-- Team Members Section -->
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="../assets/images/aboutimage/adhikari.jpg" alt="Bishruth Adhikari">
+            <h2>Bishruth Adhikari</h2>
+            <p><strong>Role:</strong> Group Leader</p>
+            <p><strong>Skills:</strong> Java, HTML, CSS, JavaScript</p>
+            <p><strong>Education:</strong> BSc in Computer Science</p>
+             <button>
+                <a href="../about/bishrut.html">View Portfolio</a>
+            </button>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <img src="../assets/images/aboutimage/IMG-df15e4dda9858c7b11260f867b5de6e4-V (1).jpg" alt="Eijkeyal Pakhrin">  
+            <h2>Eijkeyal Pakhrin</h2>
+            <p><strong>Role:</strong> Frontend Developer</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Education:</strong> BSc in Computer Science</p>
+            <button>
+                <a href="../about/eijkyalportfolio.html">View Portfolio</a>
+            </button>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <img src="../assets/images/aboutimage/pankajraiphoto.jpg" alt="Pankaj Rai"> 
+            <h2>Pankaj Rai</h2>
+            <p><strong>Role:</strong> Frontend Developer</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Education:</strong> BSc in Computer Science</p>
+             <button>
+                <a href="../about/pankaj.html">View Portfolio</a>
+            </button>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form name="contactForm" action="ContactServlet" method="POST" onsubmit="return validateForm()">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 All rights reserved.</p>
+        <p>For inquiries: <a href="mailto:jutta@ourwebsite.com">jutta@ourwebsite.com</a></p>
+    </footer>
+     <script src="../assets/js/formvalidation.js"></script>
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

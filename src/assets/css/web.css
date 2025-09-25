@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    background-color:white;
+    position: relative;/*taki logo muni na aayos*/
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.leftside h1 a {/*for company name */
+    color:rgb(2, 3, 3);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.leftside h1 a:hover {
+    color:rgb(193, 202, 199);
+}/*email ends here */
+
+.rightside  {/*for the location,sign up and help */
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+.rightside ul{
+     display: flex;
+    gap: 22px;
+    list-style-type: none;
+}
+.rightside ul li a{
+     color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.rightside ul li a:hover{
+    color:rgb(193, 202, 199);
+}
+
+.rightside button {
+    padding: 10px 15px;
+    background-color:  rgb(203, 201, 198);
+    padding: 8px 15px;
+    color: rgb(6, 6, 6);
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+/*location,sign up and help ends here*/
+
+/*logo nav bar search favourite and cart starts here*/
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 10px 20px;
+    font-size: 15px;
+    height: 80px;
+
+}
+.logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.weblogo{
+    width: 72px;
+    height: auto;
+    display: block;
+}
+.navlink{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.navlink ul {
+    display: flex;
+    gap: 22px;
+    list-style-type: none;
+}
+.middle nav ul li a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.middle nav ul li a:hover{
+    color:rgb(193, 202, 199);
+}
+/*for search bar*/
+.rightnav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;   
+}
+.rightnav button{
+    padding: 10px 15px;
+    background-color: rgb(203, 201, 198);
+    padding: 8px 15px;
+    color: rgb(6, 6, 6);
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.rightnav button:hover{
+    background-color:rgb(193, 202, 199);
+}
+/*adding the sponsor img*/
+.sponsorimg {
+    position: relative;     
+    width: 100%;
+    max-width: 1700px;       
+    height: 1000px;          
+    margin: 20px auto;     
+    overflow: hidden; 
+    margin-top: 0%;      
+   
+}
+.sponsorimg .slides img {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    display: none;       
+}
+ /*sponsor ends here*/
+
+.newarrivalimg{/*aaru image ko*/
+    display: flex;
+    justify-content: space-around;
+    gap: 9px;
+    margin-top: 20px;
+}
+.newitem {
+    width: 31%;
+    height: 547px;
+    border-radius: 9px;
+    object-fit: cover;/*image cropped properly*/
+}
+.newitem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;/*yeslei border round garcha*/
+
+}
+/*blog ra impact ko css*/
+.blog,.impact {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px;
+}
+.blog{
+     background-color: rgb(203, 201, 198);
+}
+.blog a{
+    text-decoration: none;/*link ko line hatauna*/
+}
+.blog a:hover{
+    background-color:rgb(193, 202, 199);
+}
+.impact{
+      background-color: rgb(203, 201, 198);
+}
+.impact a{
+    text-decoration: none;
+}
+.impact a:hover{
+    background-color:rgb(193, 202, 199);
+}
+/*footer section ko*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 79px;
+    padding: 38px 40px;
+    background-color: rgb(145, 142, 140);
+    color: rgb(0, 0, 0);
+}
+
+.footerone {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px; 
+}
+
+.footerone h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footerone ul {
+    list-style-type: none;
+}
+
+.footerone ul li {
+    margin: 10px 0;
+}
+
+.footerone ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.footerone ul li a:hover {
+    background-color: rgb(193, 202, 199);
+}
+.social-icons {
+            margin-top: 2rem;
+        }
+
+        .social-icons a {
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+/* Blog Section Styles */
+.blog-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #060a14;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for horizontal layout */
+    gap: 20px; /* Space between cards */
+    align-items: start;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.blog-image {
+    width: 100%;
+    max-height: 200px; /* Ensures consistent image height */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    flex: 1;
+}
+
+.blog-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-title a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    text-decoration: underline;
+}
+
+.blog-excerpt {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}

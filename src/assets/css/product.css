@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    background-color:white;
+    position: relative;/*taki logo muni na aayos*/
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.leftside h1 a {/*for company name */
+    color:rgb(2, 3, 3);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.leftside h1 a:hover {
+    color:rgb(193, 202, 199);
+}/*email ends here */
+
+.rightside  {/*for the location,sign up and help */
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+.rightside ul{
+     display: flex;
+    gap: 22px;
+    list-style-type: none;
+}
+.rightside ul li a{
+     color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.rightside ul li a:hover{
+    color:rgb(193, 202, 199);
+}
+
+.rightside button {
+    padding: 10px 15px;
+    background-color:  rgb(203, 201, 198);
+    padding: 8px 15px;
+    color: rgb(6, 6, 6);
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+/*logo nav bar search favourite and cart starts here*/
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 10px 20px;
+    font-size: 15px;
+    height: 80px;
+
+}
+.logo{
+    flex: 1;
+    display: flex;
+}
+.weblogo{
+    width: 80px;
+    height: auto;
+}
+.navlink{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.navlink ul {
+    display: flex;
+    gap: 22px;
+    list-style-type: none;
+}
+.middle nav ul li a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.middle nav ul li a:hover{
+    color: rgb(193, 202, 199);
+}
+/*for search bar*/
+.rightnav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;   
+}
+.rightnav button{
+    padding: 10px 15px;
+    background-color:rgb(203, 201, 198);
+    padding: 8px 15px;
+    color: rgb(6, 6, 6);
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.rightnav button:hover{
+    background-color: rgb(193, 202, 199);
+}
+.newarrivalimg{/*aaru image ko*/
+    display: flex;
+    flex-wrap: wrap;/*aarko line ma product joas bhanera*/
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.newitem {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+   
+}
+.newitem img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;/*yeslei border round garcha*/
+
+}
+.price{
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 40px;
+    background-color: rgb(145, 142, 140);
+    color: rgb(0, 0, 0);
+}
+
+.footerone {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px; 
+}
+
+.footerone h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footerone ul {
+    list-style-type: none;
+}
+
+.footerone ul li {
+    margin: 10px 0;
+}
+
+.footerone ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+
+.footerone ul li a:hover {
+    background-color: rgb(193, 202, 199);
+}
+ .social-icons {
+            margin-top: 2rem;
+        }
+
+        .social-icons a {
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }

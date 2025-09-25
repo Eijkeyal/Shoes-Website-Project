@@ -1,0 +1,233 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: #060606;
+}
+
+/* Header / Navigation */
+header {
+    width: 100%;
+    background-color: white;
+    position: relative; /* Keeps logo positioned correctly */
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 15px;
+    height: 80px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+}
+
+.weblogo {
+    width: 80px;
+    height: auto;
+}
+
+.navlink {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.navlink ul {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+}
+
+.middle nav ul li a {
+    color: #060606;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.middle nav ul li a:hover {
+    color: #c1cac7; /* softer hover color */
+}
+
+/* Right navigation button */
+.rightnav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightnav button {
+    padding: 10px 15px;
+    background-color: #cbc9c6;
+    color: #060606;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.rightnav button:hover {
+    background-color: #c1cac7;
+}
+
+/* Product section */
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 50px;
+    gap: 50px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.productimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigimg {
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Product description */
+.productdesc {
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    color: #333;
+}
+
+.productdesc h2 {
+    font-size: 29px;
+    margin-bottom: 17px;
+}
+
+.productdesc h3 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.productdesc h4 {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.5;
+    white-space: pre-line; /* To maintain line breaks if needed */
+    color: #555;
+}
+
+.productdesc button {
+    margin: 7px 0 0 0; /* margin-top:15px to create spacing */
+    padding: 10px 20px;
+    background-color: #e3e3e3;
+    color: #000;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.productdesc button:hover {
+    background-color: #c1cac7;
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 40px;
+    background-color: #918e8c;
+    color: #000;
+    flex-wrap: wrap;
+}
+
+.footerone {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px;
+}
+
+.footerone h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footerone ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footerone ul li {
+    margin: 10px 0;
+}
+
+.footerone ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.footerone ul li a:hover {
+    background-color: #c1cac7;
+}
+
+/* Social icons */
+        .social-icons {
+            margin-top: 2rem;
+        }
+
+        .social-icons a {
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+/* footer ko text lagi */
+div[style*="text-align: center"] {
+    margin: 40px auto;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555;
+}

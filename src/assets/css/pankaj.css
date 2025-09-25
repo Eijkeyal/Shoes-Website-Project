@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5; /* Dark Blue Theme */
+    color: #eaeaea; /* Light Text */
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #16213e; /* Slightly Lighter Blue */
+    border-radius: 15px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #e94560; /* Vibrant Red Accent */
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 1.5rem 0;
+    color: #a4acc4; /* Subtle Text Color */
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    color: #a4acc4;
+}
+
+/* Profile Photo */
+.profile-photo {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto 2rem;
+    object-fit: cover;
+    border: 6px solid #e94560;
+}
+
+/* Form Styles */
+form {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #eaeaea;
+}
+
+form input, form textarea {
+    padding: 0.8rem;
+    border: 1px solid #4e4e6a;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    background-color: #0f3460;
+    color: #eaeaea;
+}
+
+form button {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e94560;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #d63447;
+    transform: translateY(-2px);
+}
+
+.confirmation-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #21c87a; /* Success Green */
+    margin-top: 1.5rem;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    border: 1px solid #1b2838;
+    border-radius: 12px;
+    background-color: #0f3460; /* Deep Blue Section */
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    margin: 0 0.7rem;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #e94560;
+}
+
