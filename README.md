@@ -40,31 +40,38 @@ jutta/
     │   ├── css/                    # Stylesheets
     │   │   ├── style.css           # Main stylesheet
     │   │   ├── responsive.css      # Responsive styles
-    │   │   └── components/         # Component-specific CSS
-    │   │
+    │   │   ├── bisrut.css          # Bisrut-specific styles
+    │   │   ├── pankaj.css          # Pankaj-specific styles
+    │   │   ├── product.css         # Product page styles
+    │   │   ├── shoe.css            # Shoe-related styles
+    │   │   └── web.css             # General website styles
     │   ├── images/                 # Image files
-    │   │   ├── products/           # Product images
-    │   │   ├── team/               # Team member photos
-    │   │   ├── icons/              # UI icons
-    │   │   └── banners/            # Website banners
+    │   │   ├── aboutimage/         # About section images
+    │   │   ├── blogimage/          # Blog photos
+    │   │   ├── homeimage/          # Home page images
+    │   │   └── ResearcgImage/      # Website banners,images
     │   │
     │   └── js/                     # JavaScript files
-    │       ├── main.js             # Main JavaScript logic
-    │       ├── cart.js             # Shopping cart functionality
-    │       ├── products.js         # Product management
-    │       └── utils.js            # Utility functions
+    │       ├── formvalidation.js   # Form validation for contact forms, signup, etc.
+    │       ├── pankaj.js           #  Custom functionality for Pankaj's sections     
+    │       └── Slider.js           # Image slider/carousel functionality for homepage
     │
     ├── blog/                       # Blog section
     │   ├── mainblog.html           # Main blog page
-    │   ├── sub-blog1.html          # Blog post 1
-    │   ├── sub-blog2.html          # Blog post 2
-    │   └── sub-blog3.html          # Blog post 3
+    │   ├── sub_blog1.html          # Blog post 1
+    │   ├── sub_blog2.html          # Blog post 2
+    │   └── sub_blog3.html          # Blog post 3
     │
     ├── product-page/               # Product-related pages
-    │   ├── product-listing.html    # Product catalog
-    │   ├── product-details.html    # Individual product pages
-    │   ├── categories.html         # Product categories
-    │   └── filters.html            # Product filtering
+    │   ├── addidas.html            # Adidas brand shoes
+    │   ├── nike.html               # Nike brand shoes
+    │   ├── product.html            # Product categories
+    │   ├── shoe.html               # Product catalog
+    │   ├── shoe2.html              # Individual product pages
+    │   ├── sports.html             # Sports shoes category   
+    │   ├──women.html               # Additional shoe product page
+    │   ├──womenshoeone             # Women's shoe product 1
+    │   └── womenshoetwo            # Women's shoe product 2
     │
     └── research/                   # Research section
         ├── comparison.html         # Product comparison page
