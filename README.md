@@ -10,7 +10,6 @@
 | 🔍 **Smart Filtering** | Filter by category, size, price range, and search |
 | 🛒 **Interactive Cart** | Add/remove items, quantity control, persistent storage |
 | 📱 **Responsive Design** | Perfect on desktop, tablet, and mobile devices |
-| ⚡ **Fast & Lightweight** | Pure vanilla JS, no framework dependencies |
 | 🎨 **Modern UI/UX** | Smooth animations and intuitive navigation |
 
 ## 🛠️ Tech Stack  
@@ -82,12 +81,9 @@ jutta/
 - 🔑 Add user login & signup  
 - 🛍️ Wishlist functionality  
 - 💳 Payment gateway integration  
-- 📊 Admin dashboard for inventory management  
-
----
+- 📊 Admin dashboard for inventory management 
 
 ## 🤝 Contributing  
-
 Contributions are always welcome!  
 
 If you’d like to contribute:  
@@ -100,10 +96,9 @@ If you’d like to contribute:
 Please make sure your code follows best practices and is well-documented. ✨  
 
 ## 👤 Author  
-
 **Eijkeyal Pakhrin**  
 - GitHub: [@Eijkeyal](https://github.com/Eijkeyal)  
-- LinkedIn: [Your LinkedIn Link Here]  
+- LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
 
 ## 🎉 Contributors
 We couldn’t have done it without our amazing team:
