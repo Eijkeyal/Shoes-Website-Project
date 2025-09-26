@@ -1,7 +1,6 @@
 # 👟 Shoes E-Commerce Website
 
 🥿👟 An online shoe shopping website built with HTML, CSS, and JavaScript. This project demonstrates responsive design, product listing, shopping cart functionality, and a clean user interface for an e-commerce experience.
-- LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
 
 ## ✨ Features
 
@@ -76,7 +75,7 @@ jutta/
     └── research/                   # Research section
         ├── comparison.html         # Product comparison page
         └── research.html           # Main research page
-
+```
 ## 🌟 Future Improvements  
 
 - 🔑 Add user login & signup  
@@ -99,7 +98,6 @@ Please make sure your code follows best practices and is well-documented. ✨
 ## 👤 Author  
 **Eijkeyal Pakhrin**  
 - GitHub: [@Eijkeyal](https://github.com/Eijkeyal)  
-- LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
 - LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
 
 ## 🎉 Contributors
