@@ -236,6 +236,57 @@ shoes-website/
 
 
 
+jutta/
+│
+├── 📄 index.html                    # Main homepage
+│
+└── src/                            # Source code directory
+    │
+    ├── about/                      # About section files
+    │   ├── about.html              # Main about page
+    │   ├── bisrut.html             # Bisrut's profile page
+    │   ├── bisrut-contact.html     # Bisrut's contact page
+    │   ├── eijkeyal-about.html     # Eijkeyal's about section
+    │   ├── eijkeyal-contact.html   # Eijkeyal's contact page
+    │   ├── eijkeyal-portfolio.html # Eijkeyal's portfolio
+    │   └── pankaj.html             # Pankaj's profile page
+    │
+    ├── assets/                     # Static assets
+    │   ├── css/                    # Stylesheets
+    │   │   ├── style.css           # Main stylesheet
+    │   │   ├── responsive.css      # Responsive styles
+    │   │   └── components/         # Component-specific CSS
+    │   │
+    │   ├── images/                 # Image files
+    │   │   ├── products/           # Product images
+    │   │   ├── team/               # Team member photos
+    │   │   ├── icons/              # UI icons
+    │   │   └── banners/            # Website banners
+    │   │
+    │   └── js/                     # JavaScript files
+    │       ├── main.js             # Main JavaScript logic
+    │       ├── cart.js             # Shopping cart functionality
+    │       ├── products.js         # Product management
+    │       └── utils.js            # Utility functions
+    │
+    ├── blog/                       # Blog section
+    │   ├── mainblog.html           # Main blog page
+    │   ├── sub-blog1.html          # Blog post 1
+    │   ├── sub-blog2.html          # Blog post 2
+    │   └── sub-blog3.html          # Blog post 3
+    │
+    ├── product-page/               # Product-related pages
+    │   ├── product-listing.html    # Product catalog
+    │   ├── product-details.html    # Individual product pages
+    │   ├── categories.html         # Product categories
+    │   └── filters.html            # Product filtering
+    │
+    └── research/                   # Research section
+        ├── comparison.html         # Product comparison page
+        └── research.html           # Main research page
+
+
+
 
 
 
