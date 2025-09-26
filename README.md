@@ -113,7 +113,18 @@ Please make sure your code follows best practices and is well-documented. ✨
 - GitHub: [@Eijkeyal](https://github.com/Eijkeyal)  
 - LinkedIn: [Your LinkedIn Link Here]  
 
----
+## 🎉 Contributors
+
+## 🎉 Contributors
+
+We couldn’t have done it without our amazing team:
+
+| Name              | Role        |
+|------------------|------------|
+| Eijkeyal Pakhrin  | Contributor |
+| Pankaj Rai        | Contributor |
+| Bishrut Adhikari   | Contributor |
+
 
 ⭐ *If you like this project, don’t forget to star the repo!* ⭐
 
