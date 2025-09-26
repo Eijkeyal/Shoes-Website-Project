@@ -138,7 +138,7 @@ This project demonstrates **responsive design, product listing, shopping cart fu
 ---
 
 ## 📂 Project Structure  
-
+```text
 shoes-website/
 ├── 📄 index.html # Homepage
 ├── 📄 products.html # Products listing
