@@ -210,7 +210,31 @@ Please make sure your code follows best practices and is well-documented. ✨
 
 
 
-
+shoes-website/
+├── 📄 index.html # Homepage
+├── 📄 products.html # Products listing
+├── 📄 product-details.html # Single product view
+├── 📄 cart.html # Shopping cart
+├── 📄 contact.html # Contact page
+│
+├── 🎨 css/
+│ ├── style.css # Main stylesheet
+│ ├── responsive.css # Mobile styles
+│ └── animations.css # CSS animations
+│
+├── ⚡ js/
+│ ├── main.js # Core functionality
+│ ├── cart.js # Cart management
+│ ├── products.js # Product data & filtering
+│ └── utils.js # Helper functions
+│
+├── 🖼️ images/
+│ ├── products/ # Product images
+│ ├── banners/ # Hero banners
+│ └── icons/ # UI icons
+│
+└── 📚 assets/
+└── fonts/ # Custom fonts
 
 
 
