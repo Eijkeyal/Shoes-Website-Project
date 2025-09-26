@@ -77,12 +77,6 @@ jutta/
         ├── comparison.html         # Product comparison page
         └── research.html           # Main research page
 
-
-
-
-
-
-
 ## 🌟 Future Improvements  
 
 - 🔑 Add user login & signup  
@@ -105,8 +99,6 @@ If you’d like to contribute:
 
 Please make sure your code follows best practices and is well-documented. ✨  
 
----
-
 ## 👤 Author  
 
 **Eijkeyal Pakhrin**  
@@ -114,25 +106,16 @@ Please make sure your code follows best practices and is well-documented. ✨
 - LinkedIn: [Your LinkedIn Link Here]  
 
 ## 🎉 Contributors
-
-## 🎉 Contributors
-
 We couldn’t have done it without our amazing team:
 
-| Name              | Role        |
-|------------------|------------|
+| Name              |Contributions|
+|------------------ |-------------|
 | Eijkeyal Pakhrin  | Contributor |
 | Pankaj Rai        | Contributor |
-| Bishrut Adhikari   | Contributor |
+| Bishrut Adhikari  | Contributor |
 
 
 ⭐ *If you like this project, don’t forget to star the repo!* ⭐
-
-
-
-
-
-
 
 
 
