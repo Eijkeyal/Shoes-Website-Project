@@ -99,6 +99,7 @@ Please make sure your code follows best practices and is well-documented. ✨
 **Eijkeyal Pakhrin**  
 - GitHub: [@Eijkeyal](https://github.com/Eijkeyal)  
 - LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
+- Credly: [Eijkeyal Pakhrin](https://credly.com/users/eijkeyal-pakhrin)
 
 ## 🎉 Contributors
 We couldn’t have done it without our amazing team:
