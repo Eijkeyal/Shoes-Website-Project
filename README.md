@@ -25,7 +25,7 @@ jutta/
 ├── 📄 index.html                   # Main homepage
 ├── 📄 Shoes Website Academic pdf   # PDF file for Shoes Website Project
 │                       
-└── src/   │                        # Source code directory
+└── src/                            # Source code directory
     ├── about/                      # About section files
     │   ├── about.html              # Main about page
     │   ├── bisrut.html             # Bisrut's profile page
