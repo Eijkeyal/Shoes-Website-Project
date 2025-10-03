@@ -97,7 +97,7 @@ Please make sure your code follows best practices and is well-documented. ✨
 
 ## 👤 Author  
 **Eijkeyal Pakhrin**  
-- GitHub: [@Eijkeyal](https://github.com/Eijkeyal)  
+- GitHub: [Eijkeyal](https://github.com/Eijkeyal)  
 - LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
 - Credly: [Eijkeyal Pakhrin](https://credly.com/users/eijkeyal-pakhrin)
 
