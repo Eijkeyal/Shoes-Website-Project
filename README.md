@@ -111,7 +111,7 @@ We couldn’t have done it without our amazing team:
 | Bishrut Adhikari  | Contributor |
 
 
-⭐ *If you like this project, don’t forget to star the repo!* ⭐
+⭐ *If you like this project, don’t forget to star the repo!* 
 
 
 
